@@ -4,8 +4,7 @@ function Header () {
     return (
         <header>
             <div className="nav-container">
-             <div>
-            <p>CAMPUSPAY</p>
+             <div className="header-logo"><img alt=""></img>
             </div>
             <div>
                 <ul className="nav-items">

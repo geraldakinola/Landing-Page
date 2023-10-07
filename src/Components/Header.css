@@ -6,6 +6,17 @@ header {
     align-items: center;
     justify-content: space-around;
 }
+
+.header-logo {
+    background-image: url(./Images/logo_black.svg);
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    color: transparent;
+    text-align: right;
+}
 .nav-container {
     display: flex;
     max-width: 1300px;
