@@ -13,14 +13,16 @@ font-family: var(--body-font);
 margin-bottom: 30px;
 font-size: 25px;
 line-height: 30px;
-margin-top: 30px;
+margin-top: 20px;
+margin-left: 15px;
 font-weight: 500px;
 }
 .title {
 color: #0A2319;
+display: block;
 font-weight: 700px;
-margin-bottom: 1px;
-margin-right: auto;
+margin-left: 15px;
+margin-right: 600px;
 font-size: xx-large;
 }
 
@@ -28,7 +30,9 @@ font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     line-height: 36px;
-    margin-top: -10;
+    margin-top: -10px;
+    margin-right: 600px;
+    margin-left: 15px;
     color: #2C5536;
 }
 .banner-img {
@@ -40,5 +44,27 @@ font-size: xx-large;
     height: 200px;
     color: transparent;
     text-align: right;
+    margin-left: 700px;
+    margin-top: -200px;
+    max-height: auto;
 
+}
+
+.banner-buttons {
+    align-self: center;
+        font-size: 1px;
+}
+.banner-buttons button {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 15px;
+}
+.banner-buttons button:hover {
+    background-color: green;
+    transition: ease-in;
+    transition-duration: 300ms;
+    border: black;
 }
