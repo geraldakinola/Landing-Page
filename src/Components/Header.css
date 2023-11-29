@@ -7,6 +7,7 @@ header {
     justify-content: space-around;
 }
 
+
 .header-logo {
     background-image: url(./Images/logo_black.svg);
     color: transparent;
@@ -45,7 +46,7 @@ header {
 }
 
 .nav-items li a:hover {
-    background-color: skyblue;
+    color: skyblue;
     transition: ease-in;
     transition-duration: 300ms;
 }
