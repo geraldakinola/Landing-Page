@@ -63,9 +63,37 @@
     margin-bottom: -50px;
     text-align: center;
     background-color: aliceblue;
-  
+   
 }
-.icon {
-    height: 3rem;
-    width: 3rem;
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 2cm;
+    row-gap: 2cm;
+    align-items: start;
+    justify-content: space-evenly;
+    color: #2C5536;
+
+
+
+}
+
+.item1 {
+    padding: 16px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.item2 {
+    padding: 16px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.item3 {
+    padding: 16px;
+    border: 1px solid #ddd;
+    text-align: center;
+   
 }

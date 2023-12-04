@@ -1,9 +1,9 @@
 import React from "react";
 import "./Business.css"
-import {Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography, Button, SvgIcon} from '@mui/material'
-import GroupIcon from '@mui/icons-material/Group';
-import SchoolIcon from '@mui/icons-material/School';
-import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+// import {Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography, Button, SvgIcon} from '@mui/material'
+// import GroupIcon from '@mui/icons-material/Group';
+// import SchoolIcon from '@mui/icons-material/School';
+// import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 function Business(){
 return (
     <section className="business-section">
@@ -13,7 +13,7 @@ return (
             <h2 className="title3">Solutions for Every Business Need.</h2>
             <p className="other3">Power up your business with a full-stack online cashiering system that fits your needs.</p>
         </div>
-        <div>
+        {/* <div>
          <div className="card-layout">
            <Grid container spacing={3}>
            <Card sx={{ maxWidth: 345, maxHeight: 345 }}>
@@ -39,7 +39,7 @@ return (
             <CardActionArea>
               <CardMedia>
                 <CardContent>
-                  <div> <SchoolIcon/></div>
+                  <div className="icon"> <SchoolIcon/></div>
                 <Typography gutterBottom variant="h5" component="div">
                   Students
                 </Typography>
@@ -72,7 +72,15 @@ return (
            </Card>
           </Grid>
          </div>
-        </div>
+        </div> */}
+
+        <div className="container">
+          <div className="item1"><h5>Student Organization</h5>
+          <p>Simplify membership dues, event fees, and fundraising campaigns to focus on creating memorable experiences and driving impactful initiatives</p></div>
+          <div className="item2"><h4>Students</h4>
+          <p>Enjoy the convenience of making secure online payments from anywhere, ensuring a smooth and stress-free financial experience throughout your academic journey.</p></div>
+          <div className="item3"><h3>Freelancers</h3>
+          <p>Offer design services, writing, tutoring, or any other freelance work and streamlines the payment process, ensuring you receive your hard-earned money swiftly and hassle-free</p></div></div>
       </div>
     </section>
 )
