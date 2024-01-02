@@ -76,11 +76,12 @@ return (
 
         <div className="container">
           <div className="item1"><h5>Student Organization</h5>
-          <p>Simplify membership dues, event fees, and fundraising campaigns to focus on creating memorable experiences and driving impactful initiatives</p></div>
+          <p>Simplify membership dues, event fees, and fundraising campaigns to focus on creating memorable experiences and driving impactful initiatives</p>
+          <button>Get Started</button></div>
           <div className="item2"><h4>Students</h4>
-          <p>Enjoy the convenience of making secure online payments from anywhere, ensuring a smooth and stress-free financial experience throughout your academic journey.</p></div>
+          <p>Enjoy the convenience of making secure online payments from anywhere, ensuring a smooth and stress-free financial experience throughout your academic journey.</p> <button>Get Started</button></div>
           <div className="item3"><h3>Freelancers</h3>
-          <p>Offer design services, writing, tutoring, or any other freelance work and streamlines the payment process, ensuring you receive your hard-earned money swiftly and hassle-free</p></div></div>
+          <p>Offer design services, writing, tutoring, or any other freelance work and streamlines the payment process, ensuring you receive your hard-earned money swiftly and hassle-free</p> <button>Get Started</button></div></div>
       </div>
     </section>
 )
