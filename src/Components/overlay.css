@@ -1,0 +1,14 @@
+.icons1 {
+        width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: greenyellow;
+            margin-bottom: 30px;
+            justify-content: center;
+            vertical-align: middle ;
+        }
+
+.head-icons1 {
+    align-items: center;
+    
+}

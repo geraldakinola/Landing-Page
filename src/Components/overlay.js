@@ -1,11 +1,14 @@
 import React from "react";
 import "./overlay.css";
+import StarRateIcon from '@mui/icons-material/StarRate';
 
 function Overlay () {
 return (
-    <section>
+    
+            <div className="head-icon1">
+         <span className="icons1"><StarRateIcon color="brown" ></StarRateIcon></span>
+            </div>
 
-    </section>
 )
 }
 
